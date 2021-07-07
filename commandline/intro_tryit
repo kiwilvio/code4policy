@@ -1,0 +1,17 @@
+1. print your username to the command line using whoami
+quilviohernandez
+
+2. print your computer's name to the command line using hostname
+Quilvios-MBP.HDEZNET
+
+3. print the name of your operating system using uname
+Darwin
+
+take a look at the manual page for the uname command. Then, use uname with options to:
+print the operating system name: -s Darwin
+print the operating system release: -r 19.6.0
+print the operating system name and - sr release together: 
+print the machine hardware name and the processor architecture together: -mp x86_64 i386
+print as much information as you can all at once using uname.: -a Darwin Quilvios-MBP.HDEZNET 19.6.0 Darwin Kernel Version 19.6.0: Tue Jan 12 22:13:05 PST 2021; root:xnu-6153.141.16~1/RELEASE_X86_64 x86_64
+
+print 'I did it. I'm so cool.' to the terminal using echo: Use '/' as an escape charater. 
