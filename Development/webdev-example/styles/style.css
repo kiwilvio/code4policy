@@ -1,14 +1,28 @@
 html {
+<<<<<<< HEAD
   font-size: 10px;
   font-family: 'Open Sans', sans-serif;
 }
 
+=======
+    background-color: #00539F;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto; /* The first number controls top-bottom, second controls left-right. can use four numbers if needed*/
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+>>>>>>> master
 
 h1 {
   font-size: 60px;
   text-align: center;
 }
 
+<<<<<<< HEAD
 p, li {
   font-size: 16px;
   line-height: 2;
@@ -66,4 +80,24 @@ img {
 .focus circle {
   fill: none;
   stroke: steelblue;
+=======
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black; /* first number - horizontal offset, second - vertical offset, third - blur radius, fourth value is shadow color*/
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+  color: red;
+}
+
+#mainquote {
+    border: 1px solid black;
+>>>>>>> master
 }
